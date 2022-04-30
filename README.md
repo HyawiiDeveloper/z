@@ -12,7 +12,7 @@ This makes Roblox Http requests more complete by adding support for the followin
 - Make PUT, PATCH, and DELETE requests in addition to GET and POST requests (with that, be able to use REST APIs from Roblox).
 - Read response headers.
 - Read the status code and status message.
-- Modify the User-Agent header (usually not allowed by Roblox).
+- Modify the User-Agent header (usually not allowed by Roblox)..
 - Read response even if the response contains a 400- or 500- status code (this includes body, headers, and the status code and message).
 - Access sites usually unavailable, including roblox.com APIs as well as discord webhooks (and being able to view headers means you will be able to obey discord rate limits, which means this proxy [is allowed](https://twitter.com/lolpython/status/967211620970545153)).
 
